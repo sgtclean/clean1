@@ -1,7 +1,9 @@
+from dependencias.label import *
 import os
 
-if __name__ == "__main__"
-	define main():
-		print("hello world")
+def main():
+	for i in range(len(todoList)):
+		todoList[i].self_print()
 
-
+if __name__ == '__main__':
+	main()
