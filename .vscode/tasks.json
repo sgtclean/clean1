@@ -6,6 +6,9 @@
     {
       "label": "run python",
       "type": "shell",
+      "windows": {
+        "command": "python main.py"
+      },
       "linux": {
         "command": "python main.py"
       },
